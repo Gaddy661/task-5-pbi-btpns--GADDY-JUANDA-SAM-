@@ -16,11 +16,13 @@ API ini dibuat untuk menyelesaikan Final Task dari Project Based Internship BTPN
 
 ### Environment Variables
 
+Jika belum ada, buat terlebih dahulu file .env di root folder API yang berisi variabel-variabel berikut.
+
 | Variables | Usage |
 | --- | --- |
-| PORT | Untuk mengatur nomor port localhost yang dipakai oleh API, saat ini adalah 3000 |
-| SECRET | Untuk keperluan menghasilkan token dengan JWT, saat ini adalah "haikawankawan" |
-| DB_STRING | Untuk menghubungkan API dengan database |
+| PORT | Untuk mengatur nomor port localhost yang dipakai oleh API |
+| SECRET | Menampung sebuah string untuk keperluan menghasilkan token dengan JWT |
+| DB_STRING | Menampung sebuah string Untuk menghubungkan API dengan database. Contoh: "host=rosie.db.elephantsql.com user=zhnyhmdl password=Vqpo8Elg3oLU8WfU3DIK7ce3hP6hhmr0 dbname=zhnyhmdl port=5432 sslmode=disable" |
 
 ### Endpoint yang Tersedia
 
